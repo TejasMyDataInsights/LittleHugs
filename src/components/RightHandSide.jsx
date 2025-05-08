@@ -3,9 +3,9 @@ import React from "react";
 const RightHandSide = () => {
   return (
     <>
-      <div className="w-72 border-l border-gray-200 p-4 h-screen overflow-auto scrollbar-thin hidden md:block">
+      
         {/* User Profile */}
-        <div className="flex items-center justify-between mb-6">
+        <div className="lg:flex items-center justify-between mb-6 hidden">
           <div className="flex items-center">
             <div className="h-8 w-8 rounded-full bg-gray-300 overflow-hidden">
               <img
@@ -67,7 +67,6 @@ const RightHandSide = () => {
             Download
           </button>
         </div>
-      </div>
     </>
   );
 };

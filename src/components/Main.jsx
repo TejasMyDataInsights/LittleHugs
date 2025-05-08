@@ -45,7 +45,7 @@ const Main = () => {
   );
 
   return (
-    <div className="flex-1 overflow-auto h-screen scrollbar-thin">
+    <>
       {/* Welcome Banner */}
       <div className="bg-blue-100 p-6 mx-4 my-4 rounded-lg">
         <h2 className="text-xl font-medium mb-2">Hi UserName</h2>
@@ -137,7 +137,7 @@ const Main = () => {
           </div>
         </div>
       </div>
-    </div>
+      </>
   );
 };
 

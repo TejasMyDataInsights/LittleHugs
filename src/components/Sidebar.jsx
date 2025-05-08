@@ -16,7 +16,6 @@ import logo from "../images/logo.svg";
 const Sidebar = () => {
   return (
     <>
-      <div className="w-64 border-r border-gray-200 bg-white h-[100vh] hidden md:block">
         {/* Logo */}
         <div className="flex items-center p-4 border-b border-gray-200">
           <img src={logo} alt="" />
@@ -67,7 +66,6 @@ const Sidebar = () => {
             Download
           </button>
         </div>
-      </div>
     </>
   );
 };
